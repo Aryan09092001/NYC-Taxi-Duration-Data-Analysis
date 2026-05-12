@@ -1,0 +1,28 @@
+﻿# Data files (too large for GitHub)
+*.csv
+*.pkl
+*.joblib
+
+# Spark output folders
+NYC Taxi Duration Cleaned/
+NYC Taxi Duration Preprocessed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -44,7 +44,7 @@ Outlier removal was crucial for effective modeling. We converted categorical var
 
 Using scikit-learn’s KMeans, we identified patterns by grouping similar data points. The Elbow method determined the optimal number of clusters (k = 4). Cluster analysis revealed feature influences on trip duration, with additional box plots and radar charts providing a clear view of distribution patterns.
 
-![Elbow Method](./Documents/elbow method.png)
+![Elbow Method](./Documents/elbow%20method.png)
 
 ![Cluster Analysis](./Documents/Feature Distrubution per cluster.png)
 

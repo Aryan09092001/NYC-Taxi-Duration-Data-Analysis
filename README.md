@@ -44,9 +44,9 @@ Outlier removal was crucial for effective modeling. We converted categorical var
 
 Using scikit-learn’s KMeans, we identified patterns by grouping similar data points. The Elbow method determined the optimal number of clusters (k = 4). Cluster analysis revealed feature influences on trip duration, with additional box plots and radar charts providing a clear view of distribution patterns.
 
-![Elbow Method](./Documents/Aspose.Words.aba6c92a-e782-445b-b727-2cf5eb96087d.006.png)
+![Elbow Method](./Documents/elbow method.png)
 
-![Cluster Analysis](./Documents/Aspose.Words.aba6c92a-e782-445b-b727-2cf5eb96087d.007.png)
+![Cluster Analysis](./Documents/Feature Distrubution per cluster.png)
 
 **V. Results**
 
@@ -66,7 +66,7 @@ This model achieved approximately 75% accuracy with an RMSE of 362.1. Gradient-b
 
 Despite challenges in cluster differentiation, we identified meaningful patterns and generated a radar plot to visualize key cluster characteristics:
 
-![Radar Plot](./Documents/Aspose.Words.aba6c92a-e782-445b-b727-2cf5eb96087d.010.png)
+![Radar Plot](./Documents/cluster characteristics.png)
 
 **VI. Discussion**
 

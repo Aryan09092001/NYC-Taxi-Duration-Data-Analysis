@@ -22,13 +22,13 @@ Data preparation involved several key steps. Each column’s data type was conve
 
 We created various visualizations to extract insights from the data. For example, total trips peak on Fridays and Saturdays, while average passenger counts are highest on Sundays, likely due to family outings. Trip durations are generally shorter on weekends, reflecting reduced traffic, though distances tend to be longer for leisure travel.
 
-![Weekly Patterns](./Documents/Aspose.Words.aba6c92a-e782-445b-b727-2cf5eb96087d.003.png)
+![Weekly Patterns](./Documents/.png)
 
-![Trip Duration Trends](./Documents/Aspose.Words.aba6c92a-e782-445b-b727-2cf5eb96087d.004.png)
+![Trip Duration Trends](./Documents/.png)
 
 Distance is a key variable for trip duration predictions. Our analysis shows that approximately 70% of trips cover less than 10 kilometers and take under 2000 seconds (about 30 minutes). This compact distribution suggests outliers, as a few trips exhibit unusually high durations and distances.
 
-![Distance vs. Duration](./Documents/Aspose.Words.aba6c92a-e782-445b-b727-2cf5eb96087d.005.png)
+![Distance vs. Duration](./Documents/Distance%20and%20Trip%20Duration.png)
 
 **IV. Algorithms**
 
@@ -46,7 +46,7 @@ Using scikit-learn’s KMeans, we identified patterns by grouping similar data p
 
 ![Elbow Method](./Documents/elbow%20method.png)
 
-![Cluster Analysis](./Documents/Feature Distrubution per cluster.png)
+![Cluster Analysis](./Documents/Feature%20Distrubution%20per%20cluster.png)
 
 **V. Results**
 
@@ -66,7 +66,7 @@ This model achieved approximately 75% accuracy with an RMSE of 362.1. Gradient-b
 
 Despite challenges in cluster differentiation, we identified meaningful patterns and generated a radar plot to visualize key cluster characteristics:
 
-![Radar Plot](./Documents/cluster characteristics.png)
+![Radar Plot](./Documents/cluster%20characteristics.png)
 
 **VI. Discussion**
 

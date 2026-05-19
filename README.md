@@ -22,9 +22,9 @@ Data preparation involved several key steps. Each column’s data type was conve
 
 We created various visualizations to extract insights from the data. For example, total trips peak on Fridays and Saturdays, while average passenger counts are highest on Sundays, likely due to family outings. Trip durations are generally shorter on weekends, reflecting reduced traffic, though distances tend to be longer for leisure travel.
 
-![Weekly Patterns](./Documents/.png)
+![Total Trips and Avg Passenger by Weekday](Documents/Total%20Trips%20and%20Avg%20Passenger%20by%20Weekday.png)
 
-![Trip Duration Trends](./Documents/.png)
+![Mean Trip Duration and Distance by Weekday](Documents/Mean%20Trip%20Duration%20and%20Distance%20by%20Weekday.png)
 
 Distance is a key variable for trip duration predictions. Our analysis shows that approximately 70% of trips cover less than 10 kilometers and take under 2000 seconds (about 30 minutes). This compact distribution suggests outliers, as a few trips exhibit unusually high durations and distances.
 
